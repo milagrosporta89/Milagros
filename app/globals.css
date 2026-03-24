@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --widdu-dark: #212028;
+  --widdu-lime: #bbeb09;
+  --widdu-white: #ffffff;
+}
+
+html,
+body {
+  background-color: var(--widdu-dark);
+  color: var(--widdu-white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-max {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1120px;
+  padding-inline: 1rem;
+}
